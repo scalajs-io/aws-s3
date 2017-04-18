@@ -55,7 +55,7 @@ s3.getBucketLocation(params, (err, data) => {
 To add the `aws-s3` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "aws-s3" % "0.4.0-pre3"
+libraryDependencies += "io.scalajs.npm" %%% "aws-s3" % "0.4.0-pre4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
