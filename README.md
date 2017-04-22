@@ -37,7 +37,7 @@ import io.scalajs.nodejs._
 import io.scalajs.npm.aws._
 import io.scalajs.npm.aws.s3._
 
-val s3 = new S3(new ClientConfiguration(
+val s3 = new S3(ClientConfiguration(
   accessKeyId = "[YOUR PUBLIC ACCESS KEY]",
   secretAccessKey = "[YOUR SECRET ACCESS KEY]",
   region = "us-west-1"
@@ -55,7 +55,7 @@ s3.getBucketLocation(params, (err, data) => {
 To add the `aws-s3` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "aws-s3" % "0.4.0-pre4"
+libraryDependencies += "io.scalajs.npm" %%% "aws-s3" % "0.4.0-pre5"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:

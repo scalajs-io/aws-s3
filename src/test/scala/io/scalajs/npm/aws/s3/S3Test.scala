@@ -20,7 +20,7 @@ class S3Test extends FunSpec {
         bucketName <- process.env.get("aws.bucket")
       } {
         val ses = new SES()
-        val s3 = new S3(new ClientConfiguration(
+        val s3 = new S3(ClientConfiguration(
           apiVersion = "2006-03-01",
           accessKeyId = accessKeyId,
           secretAccessKey = secretAccessKey,
