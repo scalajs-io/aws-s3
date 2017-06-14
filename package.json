@@ -1,6 +1,6 @@
 {
   "name": "aws-s3-sjs",
-  "version": "0.4.0-pre5",
+  "version": "0.4.0",
   "private": true,
   "dependencies": {
     "aws-sdk": "^2.28.0",
