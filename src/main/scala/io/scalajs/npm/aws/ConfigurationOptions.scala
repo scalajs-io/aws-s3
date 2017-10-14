@@ -1,14 +1,14 @@
 package io.scalajs.npm.aws
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 import scala.scalajs.js.|
 
 /**
   * Configuration Options
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class ConfigurationOptions() extends js.Object {
 
   /**

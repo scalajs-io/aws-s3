@@ -1,7 +1,7 @@
 package io.scalajs.npm.aws.s3
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * ListObjectsV2 Request
@@ -20,7 +20,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * @param RequestPayer      Confirms that the requester knows that she or he will be charged for the list objects
   *                          request in V2 style. Bucket owners need not specify this parameter in their requests.
   */
-@ScalaJSDefined
+
 class ListObjectsV2Request(val Bucket: String,
                            val Delimiter: js.UndefOr[String] = js.undefined,
                            val EncodingType: js.UndefOr[String] = js.undefined,

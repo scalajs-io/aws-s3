@@ -3,12 +3,12 @@ package io.scalajs.npm.aws.s3
 import io.scalajs.npm.aws.ConfigBase
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * AWS.S3.ClientConfiguration
   */
-@ScalaJSDefined
+
 class ClientConfiguration() extends ConfigBase {
 
   /**

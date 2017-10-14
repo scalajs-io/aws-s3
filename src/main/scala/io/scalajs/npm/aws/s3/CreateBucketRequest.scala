@@ -1,7 +1,7 @@
 package io.scalajs.npm.aws.s3
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * Create Bucket Request
@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * @param  GrantWriteACP            Allows grantee to write the ACL for the applicable bucket.
   *
   */
-@ScalaJSDefined
+
 class CreateBucketRequest(val ACL: js.UndefOr[String] = js.undefined,
                           val Bucket: js.UndefOr[String] = js.undefined,
                           val CreateBucketConfiguration: js.UndefOr[CreateBucketConfiguration] = js.undefined,
@@ -32,6 +32,6 @@ class CreateBucketRequest(val ACL: js.UndefOr[String] = js.undefined,
   * @param LocationConstraint Specifies the region where the bucket will be created. If you don't specify a region,
   *                           the bucket will be created in US Standard.
   */
-@ScalaJSDefined
+
 class CreateBucketConfiguration(val LocationConstraint: js.UndefOr[String] = js.undefined)
   extends js.Object

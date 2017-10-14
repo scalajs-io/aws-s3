@@ -3,7 +3,7 @@ package io.scalajs.npm.aws
 import io.scalajs.RawOptions
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSImport, ScalaJSDefined}
+import scala.scalajs.js.annotation.JSImport
 import scala.scalajs.js.|
 
 /**
@@ -105,7 +105,7 @@ class Service(val config: ServiceConfigurationOptions | RawOptions = js.native) 
   * @param params   An optional map of parameters to bind to every request sent by this service object.
   *                 For more information on bound parameters, see "Working with Services" in the Getting Started Guide.
   */
-@ScalaJSDefined
+
 class ServiceConfigurationOptions(val endpoint: js.UndefOr[String] = js.undefined,
                                   val params: js.UndefOr[js.Dictionary[js.Any]] = js.undefined)
   extends js.Object
